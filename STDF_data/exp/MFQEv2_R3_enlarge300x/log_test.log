@@ -1,0 +1,41 @@
+<<<<<<<<<< Test >>>>>>>>>>
+Timestamp: [20200915_025343]
+
+<<<<<<<<<< Options >>>>>>>>>>
+restore_iter: 290000
+pbar_len: 100
+criterion:[
+  type: PSNR
+  unit: dB
+  ]
+checkpoint_save_path: exp/MFQEv2_R3_enlarge300x/ckp_290000.pt
+
+loading model exp/MFQEv2_R3_enlarge300x/ckp_290000.pt...
+> model exp/MFQEv2_R3_enlarge300x/ckp_290000.pt loaded.
+
+<<<<<<<<<< Results >>>>>>>>>>
+BQMall_832x480_600.yuv: [31.297] dB -> [32.221] dB
+BQSquare_416x240_600.yuv: [28.270] dB -> [29.078] dB
+BQTerrace_1920x1080_600.yuv: [31.247] dB -> [31.852] dB
+BasketballDrill_832x480_500.yuv: [31.591] dB -> [32.359] dB
+BasketballDrive_1920x1080_500.yuv: [33.227] dB -> [33.963] dB
+BasketballPass_416x240_500.yuv: [30.482] dB -> [31.446] dB
+BlowingBubbles_416x240_500.yuv: [27.794] dB -> [28.465] dB
+Cactus_1920x1080_500.yuv: [32.207] dB -> [32.918] dB
+FourPeople_1280x720_600.yuv: [34.589] dB -> [35.533] dB
+Johnny_1280x720_600.yuv: [36.375] dB -> [37.161] dB
+Kimono_1920x1080_240.yuv: [34.411] dB -> [35.272] dB
+KristenAndSara_1280x720_600.yuv: [35.887] dB -> [36.895] dB
+ParkScene_1920x1080_240.yuv: [31.583] dB -> [32.140] dB
+PartyScene_832x480_500.yuv: [27.802] dB -> [28.402] dB
+PeopleOnStreet_2560x1600_150.yuv: [31.388] dB -> [32.557] dB
+RaceHorses_416x240_300.yuv: [29.320] dB -> [30.055] dB
+RaceHorses_832x480_300.yuv: [30.094] dB -> [30.557] dB
+Traffic_2560x1600_150.yuv: [33.176] dB -> [33.866] dB
+> ori: [31.708] dB
+> ave: [32.486] dB
+> delta: [0.778] dB
+TOTAL TIME: [0.2] h
+
+<<<<<<<<<< Goodbye >>>>>>>>>>
+Timestamp: [20200915_030730]
